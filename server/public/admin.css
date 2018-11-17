@@ -71,3 +71,12 @@ span#upload-img-btn:hover {
     margin-bottom: 5px;
     padding: 0 5px 0 5px;
 }
+
+#pell {
+    width: 100%;
+    min-height: 360px;
+    background-color: aliceblue;
+    color: #261A2C;
+    display: block;
+    margin: 0 auto;
+}
