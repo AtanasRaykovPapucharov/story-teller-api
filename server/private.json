@@ -1,0 +1,5 @@
+{
+	"mongodbConnection": "mongodb://admin:1qazxsw2@ds163060.mlab.com:63060/webdjsdatabase",
+	"cloudinaryUrl": "https://api.cloudinary.com/v1_1/fishreactor/image/upload",
+	"cloudinaryUploadPreset": "qtqdifgb"
+}

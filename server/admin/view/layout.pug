@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+  head
+    title Story Teller Admin
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css')
+    link(href='https://cdn.jsdelivr.net/npm/froala-editor@2.9.0/css/froala_editor.pkgd.min.css' rel='stylesheet' type='text/css')
+    link(href='https://cdn.jsdelivr.net/npm/froala-editor@2.9.0/css/froala_style.min.css' rel='stylesheet' type='text/css')
+    link(href='animate.min.css' rel='stylesheet' type='text/css')
+    link(href='admin.css' rel='stylesheet' type='text/css')
+
+  body
+    img#tmnt(src='tmnt.jpg', alt='TMNT' width='23%')
+    div#bg-cover
+    header
+      a(href='/admin-new') NEW
+      span
+      a(href='/admin-all') ALL
+    br
+    main 
+      block main-content
+    #logger
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.9.0/js/froala_editor.pkgd.min.js')
+    script(src='dom.js')

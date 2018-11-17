@@ -1,0 +1,7 @@
+extends layout
+
+block main-content
+    each val in data
+        div.item-story-title
+            a(href='http://localhost:3333/api/story/' + val.id + '?pretty')
+                h1=val.title

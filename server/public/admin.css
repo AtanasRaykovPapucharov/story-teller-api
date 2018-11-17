@@ -1,0 +1,73 @@
+
+body {
+    padding: 0 14% 0 195px;
+    background-color: #261A2C;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 195px 210px;
+}
+
+input, select {
+    width: 200px;
+}
+
+input[type=submit] {
+    background-color: #857144;
+    color: whitesmoke;
+    width: 120px;
+}
+
+header a {
+    margin: 0 10% 2px 0;
+    padding: 5px;
+    background-color: #261A2C;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgb(147, 164, 147);
+}
+
+form {
+    padding: 2%;
+    background-color: #261A2C;
+    color: whitesmoke;
+    text-align: center;
+}
+
+input, select {
+    margin: 0 5px 0 5px;
+}
+
+#tmnt {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#bg-cover {
+    width: 197px;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 0px;
+    background-color: #261A2C;
+}
+
+span#upload-img-btn {
+    font-size: 22px;
+    font-weight: bold;
+}
+span#upload-img-btn:hover {
+    color: rgb(147, 164, 147);
+}
+
+.item-story-title {
+    width: 86%;
+    min-height: 50px;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    padding: 0 5px 0 5px;
+}
