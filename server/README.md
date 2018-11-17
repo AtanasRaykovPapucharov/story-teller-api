@@ -1,15 +1,15 @@
-# Messages routes
+# Stories routes
 
-* `api/message`
+* `api/story`
   * **GET**
-    * returns all messages
+    * returns all stories
   * **POST**
-    * post new message
+    * post new story
 
-* `api/message/:id`
+* `api/story/:id`
   * **GET**
-    * returns a message with current id
+    * returns a story with current id
   * **PUT**
-    * update a message with current id
+    * update a story with current id
   * **DELETE**
-    * delete a message with current id
+    * delete a story with current id
