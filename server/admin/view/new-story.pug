@@ -2,7 +2,7 @@ extends layout
 
 block main-content
 
-    form#add-form(action='http://localhost:3333/api/story' method='POST')
+    form#add-form(action='https://storytellerapi.herokuapp.com/api/story' method='POST')
         .form-item
         label(for='author') Author: 
         input.float-right(name='author' type='text')
